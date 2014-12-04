@@ -26,5 +26,8 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2vzw/BoardConfigVendor.mk
 
+# Kernel
+TARGET_GCC_VERSION_ARM := 4.7-linaro
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2vzw,d2lte
